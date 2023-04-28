@@ -1,6 +1,6 @@
 const express = require("express")
 const router= express.Router()
-const transactions=require("../controllers/Transactions")
+const transactions=require("../controllers/transactions")
 
 router.post('/',transactions.createTransaction)
 router.get('/:id',transactions.viewTrans)

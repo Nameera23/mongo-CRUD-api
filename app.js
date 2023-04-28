@@ -1,7 +1,7 @@
 const express = require("express")
 const mongoose= require("mongoose")
 const app= express()
-const transaction= require("./routes/Transactions")
+const transaction= require("./routes/transactions")
 const url='mongodb://127.0.0.1/clientApp'
 
 mongoose.connect(url,{useNewUrlParser:true})
