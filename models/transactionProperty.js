@@ -12,4 +12,4 @@ const TransProp = new mongoose.Schema({
     listLease:{type: Number, required: true},
 })
 
-module.exports= mongoose.model('Transaction Property', TransProp)
+module.exports= mongoose.model('transaction_property', TransProp)

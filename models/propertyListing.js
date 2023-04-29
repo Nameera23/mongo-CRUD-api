@@ -23,4 +23,4 @@ const propertyListing = new mongoose.Schema({
     listDate: { type: Date, required: true },
 })
 
-module.exports = mongoose.model('property Listing', propertyListing)
+module.exports = mongoose.model('propertyListing', propertyListing)
